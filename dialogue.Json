@@ -1,0 +1,139 @@
+{"dialogue": [
+  {"label": "greeting",
+   "user": ["hello", "hey", "hi"],
+   "responses": ["Hello!"]
+  },
+
+  {"label": "thanks",
+   "user": ["thanks", "thank you", "that was helpful", "thanks for the help"],
+   "responses": ["Happy to help!", "You're welcome!"]
+  },  
+
+  {"label": "goodbye",
+   "user": ["bye", "see you later", "goodbye", "that's all", "that all", "i think that's it", "i think that's all", "i think that's all i need"],
+   "responses": ["See you later", "Have a nice day"]
+  },
+
+  {"label": "about",
+   "user": ["Who are you", "What are you", "what can you do"],
+   "responses": ["I am your university assistant. Here to help you in your college life, by answering your questions and inquiries."]
+  },
+
+  {"label": "semester_start",
+   "user": ["When does semester start", "When does the new semester start", "When does the next semester start", "semester start", "When does semester begin", "When does the new semester begin", "When does the next semester begin", "semester begin", "what is next semester start date", "what is new semester start date"],
+   "responses": ["The new semester will start on October 20th 2023."]
+  },
+
+  {"label": "semester_end",
+   "user": ["When does semester end", "When does the current semester end", "When does this semester end", "semester end"],
+   "responses": ["The current semester will end on January 10th 2024."]
+  },
+
+  {"label": "tuition_fees",
+   "user": ["When can i pay semester fees", "When can i pay my semester fees", "when can i pay tuition fees", "when can i pay fees", "when can i pay my fees",  "when will paying fees start", "what is the end data for paying fees", "what is the end data for paying semester fees"],
+   "responses": ["Students can pay their semester fees starting from the 4th week until the end of the 6th week of the semester, after students finish their courses registration."]
+  },
+
+  {"label": "midterm_date",
+   "user": ["When is the midterms exam", "When is the midterm exam", "When will the mideterms be held", "When will the mideterms start"],
+   "responses": ["The midterms exams will be held during the 7th and 8th weeks in the semester."]
+  },
+
+  {"label": "course_list",
+  "user": ["what courses should i take", "what courses can i take", "department courses", "course list", "i want to know my course list"],
+  "responses": ["Students in any department are required to study the following:\nFirst: University Requirements (10 credit hours):\n  A. Compulsory Requirements (4 credit hours):\n     1. Thinking Critical course (2 credit hours).\n     2. Entrepreneurship & Innovation course (2 credit hours).\n     3. Human Rights and Anti-Corruption Course*\n     4. Community service and environmental development*\n     5. Military education*\n     * A graduation requirement whose hours are not counted among the credit hours required for graduation.\n  B. Elective Requirements (6 credit hours):\n     Three courses (each 2 credit hours) from the list of elective courses offered by faculty.\nSecond: Faculty Requirements (60 credit hours):\n  A. College compulsory courses (48 credit hours).\n  B. College elective courses (12 credit hours).\nThird: Program Requirements (70 credit hours):\n  A. Compulsory courses for the program (58 credit hours, including 4 credit hours field training).\n  B. The program's elective courses (12 credit hours)."]
+  },
+
+  {"label": "graduation",
+   "user": ["graduation requirements", "what do i need to graduate", "courses description", "courses detail", "i want to know more about a course"],
+   "responses": ["Obtaining a bachelor's degree in computers and data science requires passing at least 140 credit hours with a minimum CGPA of 2.00"]
+  },
+
+  {"label": "course_prerequisite",
+   "user": ["why can't i add a course", "why can't i add a course to my registration", "why can't i add a course to my registration list", "why can't i add a course to registration list", "why can't i register a course", "why a course is not added to my registration"],
+   "responses": ["It could be because the course has a pre-requisite course. The student is not allowed to register in any course for which a prerequisite (requisite-pre) is required unless he has passed that prerequisite.\n\nIf this is not case please head to the following group for information: https://chat.whatsapp.com/B6pBeXTPMxzIkh17sKeVSC"]
+  },
+
+  {"label": "registration_hours",
+   "user": ["how many hours can i register", "how many hours can i take", "how many credit hours can i register", "how many credit hours can i take", "i want to know about registeration hours", "i want to know minimum registeration hours", "i want to know maximum registeration hours"],
+   "responses": ["1. A student is allowed to register a minimum of 12 credit hours in fall/spring semester.\n2. A student is allowed register a maximum of 19 hours in fall/spring semester. If a student has a cgpa of 3.33 or above, or it's a student final year, then they can register 21 credit hours.\n3. Student can register a maximum of 9 credit hours in summer semester"]
+  },
+
+  {"label": "student_level",
+   "user": ["why does my level on app not match my current level", "why is my level on app different from my actual current level", "why does my level not match my current level", "why is my level different from my current level"],
+   "responses": ["The problem could be related to the number of hours you passed. During their studies, students are classified into four study levels according to the number of credit hours passed as follows:\n First level: from 0 to 28 credit hours.\n Second level: from 29 credit hours to 64 credit hours.\n Third level: from 65 credit hours to 98 credit hours.\n Fourth level: from 99 credit hours to 140 credit hours."]
+  },
+
+  {"label": "change_program",
+   "user": ["can i change my program", "can i change college program", "when can i change my program", "when can i change college program", "is program changing allowed", "is changing programs allowed", "is it possible to change programs"],
+   "responses": ["The student may change the study program after spending a period in the same college, after fulfilling the conditions for admission to the new program, taking the opinion of the academic advisor, the approval of the Education and Student Affairs Committee in the college, and the approval of the College Council. \nCourses that the student has previously studied and passed may be counted provided that they are among the requirements of the new study program and the rest are not counted within the hours of the new academic program"]
+  },
+
+  {"label": "drop_add",
+   "user": ["when can i add a course", "when can i drop a course", "when can i add courses", "when can i drop courses", "i want to add a course", "i want to drop a course"],
+   "responses": ["Dropping and adding courses begins from the second week of the semester until the end of the third week."]
+  },
+  
+  {"label": "course_withdrawal",
+   "user": ["when can i withdraw from a course", "course withdrawal", "i want to withdraw from a course"],
+   "responses": ["Student can withdraw from a course from the fourth until the end of the twelfth week of fall/spring semester and during the sixth week of the summer semester, provided that the withdrawal does not prejudice the student's academic load.\nThe student will not be credited with the hours for this course, and a Withdrawal grade will be recorded for them in their academic record, provided that the student has not exceeded the prescribed percentage of absence before withdrawal."]
+  },
+
+  {"label": "repeat_course",
+   "user": ["can i repeat a course", "i want to repeat a course", "can i retake a course", "i want to retake a course", "course repeatition rules", "course retake rules"],
+   "responses": ["A student can retake a course while keeping the following rules in mind:\n- If the student receives a grade of F, (F), Abs, or FW in a course:\n  1. If the course is mandatory, they must re-study this course, \n  2. If the course is elective, they can study an alternative course, and the grade he obtained will be credited to them.\n- If a student obtains an unsatisfactory (U) in one of the graduation requirements, they must retake the course.\n- An academically struggling student may retake a course for the purpose of improving the overall cumulative grade point average (CGPA).\n- When calculating CGPA, the pass grade is calculated only for the first 8 attempts in which the student repeats a course. As for what exceeds that, both the failure and pass grades are calculated in CGPA.\n- If a student repeatedly fails a course:\n  a. one failure will be calculated in CGPA,\n  b. The number of times they took the exam for the course will be recorded in their academic record.\n  c. The points they obtained in their attempts are included in the calculation of the cumulative average (CGPA)."]
+  },
+
+  {"label": "hours",
+    "user": ["how many hours should i finish", "how many hours should i take", "how many hours am i required to finish", "how many hours am i required to finish in order to graduate", "hours am i required to finish to graduate", "how many hours am i required to finish to get degree", "how many hours should i finish to graduate"],
+    "responses": ["Obtaining a bachelor's degree in computers and data science requires passing at least 140 credit hours."]
+  },
+
+  {"label": "cgpa",
+  "user": ["what should my cgpa be at graduation", "graduation cgpa", "bachelor's degree cgpa", "cgpa at graduation", "minimum cgpa at graduation for bachelor's degree"],
+  "responses": ["Obtaining a bachelor's degree in computers and data science with a credit hour system requires having a cumulative gpa (CGPA) of at least 2.00 at time of graduation."]
+  },
+
+  {"label": "complaint",
+    "user": ["i have a complaint", "i want to raise a complaint", "there is a complaint about a service", "i want to file a complaint", "i have an issue", "file complaint", "complaint"],
+    "responses": ["Student Complaints:\nStudent can give a complaint to the student assistant room in college. Room no 402, open from 9 am to 2 pm."]
+  },
+
+  {"label": "absence",
+    "user": ["absence", "how many days can i take absence", "how many days can i be absent from college","how many days can i take absence from college", "how many days can i not attend college", "how many days can i be absent from university", "what are max absent days allowed", "maximum absence allowed"],
+    "responses": ["A student is allowed a maximum of 3 days of absence (or 25% of the teaching hours) in a single course. More than 3 days and the student will be deprived of taking the final exam and they will be assigned a grade of FW (Forced Withdrawal) and must re-study the course."]
+  },
+
+  {"label": "final_exam_absence",
+  "user": ["final exam absence", "absence from final exam", "what happens if i am absent from final exam", "what happens if i don't attend the final exam", "can i not attend the final exam", "what to do if i don't attend the final exam", "can i not take absence from  final exam"],
+  "responses": ["When a student fails to attend the final exam of a course:\n1. If the student, within two days from the date of the exam, presents an excuse accepted by Student Affairs Committee and completes the request for an incomplete course, they will be credited with a provisional grade of incomplete (I), provided that:\n  a. They have obtained at least 60% of the grades for the semester work \n  b. Have not been deprived of taking the final exam.\n2. If the student doesn't have an excuse accepted by the Student Affairs Committee, they will receive an Abs grade and must re-study the course\n- In the case of a grade of (I) Incomplete:\n  a. The student can take the final exam during the first week of following semester, or as determined by College Council. The student's total grade in the course will be the final exam grade plus the total grades they previously obtained during the semester.\n  b. If the student fails to complete the course, they will receive a grade of Abs and must retake this course.\n  c. The student can submit one or more applications for an incomplete course for a upto of three semesters."]
+  },
+
+  {"label": "business",
+  "user": ["i want to know about business program", "i want to know about business analytics program", "what is business program about", "what is business analystics program about"],
+  "responses": ["Business Analytics Program Competencies:\n 1. Business process analysis and modeling.\n 2. Innovating data collection solutions based on modern trends in technology.\n 3. Build data warehouses from different sources of data.\n 4. Using different methods to analyze data to support decisions in business organizations.\n 5. Localization and management of information systems, including the legal aspect, to support digital transformation.\n 6. Data analysis in various sectors with a great ability to generate data, such as digital marketing, E-commerce and e-government services.\n 7. Developing solutions and products based on data analysis technology to represent the nucleus of new projects."]
+  },
+
+  {"label": "intelligent",
+  "user": ["i want to know about intelligent systems program", "i want to know about ai program", "i want to know about artificial intelligence program", "what is intelligent systems program about", "what is ai program about", "what is artificial intelligence program about"],
+  "responses": ["Intelligent Systems Program Competencies:\n 1. Identify, analyze, and evaluate the components and basics of smart systems.\n 2. Collect and analyze information and forecasts from big data and help in decision making.\n 3. Design, build and test intelligent computing systems.\n 4. Design and build software for embedded systems and robotics.\n 5. Learn how to design, create and manage smart cities.\n 6. Providing the necessary support, management, and maintenance to ensure the effective and efficient performance of smart systems.\n 7. Review and evaluate available results to determine the usefulness and effectiveness of existing systems."]
+  },
+
+  {"label": "media",
+  "user": ["i want to know about media program", "i want to know about media analytics program", "what is media program about", "what is media analystics program about"],
+  "responses": ["Media Analytics Program Competencies:\n 1. Analyzing media content and anticipating changes in the digital media environment at the global level and local level.\n 2. Producing all forms of digital radio and television programs using multimedia technologies Digital photography and montage.\n 3. Using computing and technology to analyze data on all elements of journalistic work (report, article, Investigation, etc.) and even the techniques of journalistic production in a digital and electronic way.\n 4. Developing media practices in light of benefiting from computer expertise and data science and information.\n 5. Localization of digitization in various media institutions (radio, press, television), including transformation towards a digital archive.\n 6. Building observatories to analyze big data on social media and sentiment analysis.\n 7. Creating mechanisms for public opinion polls on various issues based on electronic measurement and electronic surveys in a way that serves national goals.\n 8. Creating media policies based on scientific analyzes of international media platforms and documentary programs and the recording."]
+  },
+
+  {"label": "healthcare",
+  "user": ["i want to know about healthcare program", "i want to know about healthcare informatics and data analytics program", "what is healthcare program about", "what is healthcare informatics and data analytics program about"],
+  "responses": ["Healthcare Informatics & Data Analytics Program Competencies:\n 1. Description of basic concepts in health, medical and life sciences.\n 2. Using data, information and knowledge in various health fields.\n 3. Identify the basic determinants related to health such as genes, physiology, and psychology the environment and how to evaluate it.\n 4. Identify mechanisms for making clinical, diagnostic and therapeutic health decisions.\n 5. Empowering the importance of information sharing between different healthcare institutions.\n 6. Excellence in the management, financing and service of health care systems.\n 7. Using information to support public health and research that serves health fields."]
+  },
+
+  {"label": "cybersecurity",
+  "user": ["i want to know about cybersecurity program", "what is cybersecurity program about"],
+  "responses": ["Cybersecurity Program Competencies:\n 1. Analyze, design and build secure IT systems.\n 2. Providing the necessary support, management, and maintenance to ensure the effective and efficient performance of information technology systems and security.\n 3. Identify, analyze and mitigate threats to IT systems or networks.\n 4. Investigate cyber events/IT crimes, systems, networks and digital evidence.\n 5. Collect and analyze cybersecurity information that may be used to develop the protection of systems and networks.\n 6. Analyze, review and evaluate available cybersecurity information to determine its usefulness to investigations.\n 7. Providing leadership, management and direction to individuals and organizations to act effectively and conscientiously towards cybersecurity."]
+  }
+
+
+]
+}
