@@ -6,9 +6,9 @@ AI-powered chatbot designed to handle university-related queries using a simple 
 Use manually created dataset from dialogue.json file
 
 Each entry in the dialogue list represents a conversation intent or topic, with the following fields:
-- label: A unique identifier for the intent (e.g., "greeting", "tuition_fees").
-- user: A list of sample user inputs that map to this intent.
-- responses: A list of one or more possible responses the chatbot should give.
+- label: Unique identifier for the intent (e.g., "greeting", "tuition_fees").
+- user: List of sample user inputs that map to this intent.
+- responses: List of one or more possible responses the chatbot should give.
 
 ### 2. Data Preprocessing
 1. Tokenization
