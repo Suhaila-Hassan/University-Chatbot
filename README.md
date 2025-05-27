@@ -1,5 +1,5 @@
 # University Chatbot
-A lightweight AI-powered chatbot designed to handle university-related queries using a simple neural network built with TensorFlow and deployed using Flask.
+AI-powered chatbot designed to handle university-related queries using a simple neural network built with TensorFlow and deployed using Flask.
 
 # Project Workflow
 ### 1. Load Dataset
